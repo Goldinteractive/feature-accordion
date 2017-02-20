@@ -1,0 +1,2 @@
+@charset "UTF-8";.ft-accordion>.item.-open>.content{opacity:1;-webkit-transition:opacity .3s .2s,height .2s;transition:opacity .3s .2s,height .2s}.ft-accordion>.item>.header{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.ft-accordion>.item>.content{opacity:0;height:0;overflow:hidden;-webkit-transition:opacity .1s,height .1s .1s;transition:opacity .1s,height .1s .1s}
+/*# sourceMappingURL=accordion.css.map */
