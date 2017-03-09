@@ -1391,7 +1391,7 @@ domain-browser@^1.1.1:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
 
-"easing-js@github:danro/easing-js":
+easing-js@danro/easing-js:
   version "0.5.4"
   resolved "https://codeload.github.com/danro/easing-js/tar.gz/4f5e7edbde7f7200a1baf08e357377896c0d207e"
 
@@ -1643,6 +1643,10 @@ esutils@^2.0.2:
 etag@^1.7.0, etag@~1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.7.0.tgz#03d30b5f67dd6e632d2945d30d6652731a34d5d8"
+
+ev-emitter@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/ev-emitter/-/ev-emitter-1.0.3.tgz#ee5ef74b6ed28d911b32ddcbfc97867f580937bc"
 
 event-emitter@~0.3.4:
   version "0.3.4"
@@ -1969,6 +1973,12 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
 "graceful-readlink@>= 1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
+
+handorgel@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/handorgel/-/handorgel-0.1.2.tgz#cdb6d634b33ccb391499d3fc2a603ac9e4a5b414"
+  dependencies:
+    ev-emitter "^1.0.3"
 
 har-validator@~2.0.6:
   version "2.0.6"

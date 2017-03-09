@@ -1,12 +1,16 @@
 ## `accordion` feature
 
-Accordion 
+Accordion feature using [handorgel](https://github.com/oncode/handorgel).
 
-![demo](demo/example.png)
+![example](docs/example.png)
 
 ### Global dependencies
 
 * [`gi-js-base`](https://github.com/Goldinteractive/js-base)
+
+### Dependencies
+
+* [`handorgel`](https://github.com/oncode/handorgel)
 
 ### Installation
 
