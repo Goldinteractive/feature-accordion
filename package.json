@@ -1,6 +1,6 @@
 {
   "name": "gi-feature-accordion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Accordion feature using handorgel.",
   "main": "lib/accordion.js",
   "jsnext:main": "src/index.js",
