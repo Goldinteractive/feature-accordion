@@ -1974,9 +1974,9 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-handorgel@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/handorgel/-/handorgel-0.1.2.tgz#cdb6d634b33ccb391499d3fc2a603ac9e4a5b414"
+handorgel@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/handorgel/-/handorgel-0.2.1.tgz#811a6d8b4ecfd89b4c2d31a909762d4707a8731c"
   dependencies:
     ev-emitter "^1.0.3"
 

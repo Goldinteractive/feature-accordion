@@ -1,6 +1,6 @@
 {
   "name": "gi-feature-accordion",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Accordion feature using handorgel.",
   "main": "lib/accordion.js",
   "jsnext:main": "src/index.js",
@@ -33,7 +33,7 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "handorgel": "^0.1.2"
+    "handorgel": "^0.2.1"
   },
   "browserslist": [
     "> 5%",

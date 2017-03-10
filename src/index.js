@@ -11,7 +11,7 @@ class Accordion extends base.features.Feature {
     if (this.options.initialOpenTransition) {
       window.setTimeout(() => {
         this._init(true)
-      }, 200)
+      }, this.options.initialOpenTransitionDelay || Handorgel.defaultOptions.initialOpenTransitionDelay)
     } else {
       this._init(false)
     }
