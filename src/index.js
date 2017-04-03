@@ -24,11 +24,11 @@ class Accordion extends base.features.Feature {
       var id = hash.substr(1)
       var $header = this.$(`[data-accordion-scroll-id="${id}"]`)
 
-      if (this.options.cleanHashAfterScrolling) {
-        history.pushState('', document.title, window.location.pathname + window.location.search)
-      }
-
       if ($header && $header.handorgelFold) {
+        if (this.options.cleanHashAfterScrolling) {
+          history.replaceState('', document.title, window.location.pathname + window.location.search)
+        }
+
         if ($header.handorgelFold.expanded) { // fold is open
           // scroll directly to it
           this.scrollToHeader($header)
