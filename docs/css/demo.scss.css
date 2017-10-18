@@ -19,40 +19,38 @@ body {
   border-top: none; }
 .handorgel__header {
   display: block;
-  user-select: none;
   margin: 0; }
 .handorgel__header--open .handorgel__header__button {
-  border-bottom-width: 1px;
-  background-color: #eee;
-  transition: background-color 0.2s ease, border-bottom-width 0s ease; }
-.handorgel__header--notransition {
-  transition: none; }
+  background-color: #eee; }
 .handorgel__header--notransition .handorgel__header__button {
   transition: none; }
+.handorgel__header--focus .handorgel__header__button {
+  outline: none;
+  background-color: #dfdfdf; }
 .handorgel__header__button {
   color: inherit;
   cursor: pointer;
   display: block;
   width: 100%;
+  user-select: none;
   background-color: #fff;
   border: none;
   padding: 20px 24px;
   font-size: inherit;
   text-align: left;
   border-top: 1px solid #eee;
-  border-bottom: 0px solid #eee;
-  transition: background-color 0.2s ease, border-bottom-width 0s ease 0.2s; }
-  .handorgel__header__button:focus {
-    outline: none;
-    background-color: #dfdfdf; }
+  transition: background-color 0.2s ease; }
   .handorgel__header__button::-moz-focus-inner {
     border: 0; }
 .handorgel__content {
   height: 0;
   overflow: hidden;
+  display: none;
   background-color: #fff;
-  transition: height 0.1s ease 0.1s; }
+  transition: height 0.1s ease 0.1s;
+  border-top: 1px solid #eee; }
   .handorgel__content--open {
+    display: block;
     transition: height 0.2s ease; }
   .handorgel__content--opened {
     overflow: visible; }
@@ -76,12 +74,13 @@ body {
   background-image: inline("features/accordion/arrow-right.svg");
   width: 1em;
   height: 1em;
-  transition: transform .2s ease; }
+  transition: transform 0.1s; }
 .ft-accordion .handorgel__header__button {
   display: flex;
   justify-content: space-between;
   align-items: center; }
 .ft-accordion .handorgel__header--open .toggle {
-  transform: rotate(90deg); }
+  transform: rotate(90deg);
+  transition: transform 0.5s; }
 
 /*# sourceMappingURL=demo.scss.css.map */

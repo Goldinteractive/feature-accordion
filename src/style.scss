@@ -1,4 +1,4 @@
-@import 'handorgel/src/style';
+@import 'handorgel/src/scss/style';
 
 $ft-accordion-toggle-size: 1em;
 
@@ -15,7 +15,7 @@ $ft-accordion-toggle-size: 1em;
     background-image: inline('features/accordion/arrow-right.svg');
     width: $ft-accordion-toggle-size;
     height: $ft-accordion-toggle-size;
-    transition: transform .2s ease;
+    transition: transform $handorgel__content-transition-height-time;
   }
 
   .handorgel__header__button {
@@ -26,5 +26,7 @@ $ft-accordion-toggle-size: 1em;
 
   .handorgel__header--open .toggle {
       transform: rotate(90deg);
+      transition: transform $handorgel__content--open-transition-height-time
+                            + $handorgel__content--open-transition-opacity-time;
     }
 }
